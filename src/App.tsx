@@ -25,7 +25,7 @@ import { useState } from "react";
 export default function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-  const whatsappNumber = "0895433704646";
+  const whatsappNumber = "62895433704646";
   const whatsappUrl = `https://wa.me/${whatsappNumber}?text=Halo%20Kripikoo!%20Saya%20ingin%20tanya-tanya%20tentang%20Keripik%20Pisang%20Original%20nya...`;
 
   const fadeIn = {
